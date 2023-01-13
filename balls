@@ -567,7 +567,7 @@ local function BuildPlot(Folder,CFrame)
         --if n % 2 == 0 then
         pcall(function()
             if v:IsA("BasePart") then
-                task.wait(0.8)
+                task.wait(0.1)
 
                 local P = CreatePart(v.CFrame,v)
 
